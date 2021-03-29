@@ -5,8 +5,8 @@
 #                                                      +:+                     #
 #    By: tuperera <marvin@codam.nl>                   +#+                      #
 #                                                    +#+                       #
-#    Created: 2019/10/28 13:06:02 by tuperera       #+#    #+#                 #
-#    Updated: 2019/11/07 17:03:48 by tuperera      ########   odam.nl          #
+#    Created: 2019/10/28 13:06:02 by tuperera      #+#    #+#                  #
+#    Updated: 2021/03/29 17:15:47 by tuperera      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ HEAD = libft.h
 
 FLAGS = -Wall -Werror -Wextra
 
-SRC = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c \
+SRC = ft_atoi.c ft_atol.c ft_bzero.c ft_calloc.c ft_isalnum.c \
 ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c \
 ft_itoa.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c \
 ft_memmove.c ft_memset.c ft_putchar_fd.c ft_putendl_fd.c \
@@ -26,7 +26,7 @@ ft_strlen.c ft_strmapi.c ft_strncmp.c ft_strnstr.c \
 ft_strrchr.c ft_strtrim.c ft_substr.c ft_tolower.c \
 ft_toupper.c
 
-OBJ = ft_atoi.o ft_bzero.o ft_calloc.o ft_isalnum.o ft_isalpha.o ft_isascii.o \
+OBJ = ft_atoi.o ft_atol.o ft_bzero.o ft_calloc.o ft_isalnum.o ft_isalpha.o ft_isascii.o \
 ft_isdigit.o ft_isprint.o ft_itoa.o ft_memccpy.o ft_memchr.o ft_memcmp.o \
 ft_memcpy.o ft_memmove.o ft_memset.o ft_putchar_fd.o ft_putendl_fd.o \
 ft_putnbr_fd.o ft_putstr_fd.o ft_split.o ft_strchr.o ft_strdup.o ft_strjoin.o \

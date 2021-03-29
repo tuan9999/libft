@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: tuperera <tuperera@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/10/31 11:26:00 by tuperera       #+#    #+#                */
-/*   Updated: 2019/11/04 15:54:51 by tuperera      ########   odam.nl         */
+/*   Created: 2019/10/31 11:26:00 by tuperera      #+#    #+#                 */
+/*   Updated: 2021/03/29 17:15:30 by tuperera      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <stddef.h>
 
 int				ft_atoi(char const *str);
+long 			ft_atol(char *str);
 void			ft_bzero(void *s, size_t n);
 void			*ft_calloc(size_t count, size_t size);
 int				ft_isalnum(int c);
